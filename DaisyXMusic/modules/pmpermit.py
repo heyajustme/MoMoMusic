@@ -34,7 +34,7 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                "Hi there, This is ADL Music Player .\n\n ❗️ Rules:\n   - No chatting allowed\n   - No spam allowed\n\n",
+                "Hi there, This is MoMoMusic, Music Player in @ADrama_Lovers .\n\n ❗️ Rules:\n   - No chatting allowed\n   - No spam allowed\n\n",
             )
             return
 
