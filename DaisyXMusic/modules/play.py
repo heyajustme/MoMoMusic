@@ -1030,7 +1030,7 @@ async def deezer(client: Client, message_: Message):
         qeue.append(appendable)
         try:
             await callsmusic.set_stream(chat_id, file_path)
-        except
+        except: 
             res.edit("Group call is not connected or I can't join it")
             return
 
@@ -1074,7 +1074,7 @@ async def jiosaavn(client: Client, message_: Message):
                     invitelink = await client.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>Add me as admin of yor group first</b>",
+                        "<b>Add me as admin of your group first</b>",
                     )
                     return
 
