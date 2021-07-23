@@ -101,7 +101,7 @@ def map(pos):
     elif(pos==len(tr.HELP_MSG)-1):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
-            [InlineKeyboardButton("Join ADrama Lovers' , url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+            [InlineKeyboardButton("Add to Group" , url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [InlineKeyboardButton(text = 'Index Channel', url=f"https://t.me/{UPDATES_CHANNEL}"),
              InlineKeyboardButton(text = '💬 Discussion Group', url=f"https://t.me/{SUPPORT_GROUP}")],
             [InlineKeyboardButton(text = 'Owner', url=f"https://{SOURCE_CODE}")],
@@ -124,8 +124,8 @@ async def ghelp(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🟡 Click here to Join🟡", url=f"https://t.me/{BOT_USERNAME}"
-                    )
+                        "🟡View Bot🟡", url=f"https://t.me/{BOT_USERNAME}"
+              
                 ]
             ]
         ),
